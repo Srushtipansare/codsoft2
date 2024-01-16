@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio.harsh</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+       <a href="#">PORTFOLIO</a>
+        <div class="menu" id="sidemenu">
+          <ul id="list">
+            <li> <a href="#">HOME</a></li>
+            <li> <a href="#">ABOUT</a></li>
+            <li> <a href="#">SKILLS</a></li>
+            <li> <a href="#">CONTACT</a></li>
+            <li> <a href="#">PORTFOLIO</a></li>
+          </ul>
+          
+           <i class="fa-solid fa-xmark bars " onclick="closemenu();"></i>
+        </div>
+        <i class="fa-solid fa-bars bars " onclick="openmenu();"></i>
+      </nav>
+      </div>
+  </div>
+     <div class="content-section">
+      <div class="container">
+        <div class="row1">
+          <div class="left-content ">
+           <h3>Hello, Its me</h3>
+           <h1>SRUSHTI PANSARE</h1>
+           <h3>A Frontend Developer</h3>
+          
+          <a href="#" download class="btn1 btn2">Download CV</a>
+        </div>
+        <div class="right-content ">
+          <img src="img5.jpg" alt="renote image">
+        
+        </div>
+        </div>
+        
+      </div>
+     </div>
+
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+    
+        <div class="about-col-2">
+         <h1 class="sub-title">ABOUT ME</h1>
+         <p>Hello everyone !Myself Srushti, a student at JSPM's Bhivarabai Sawant Institute of Technology and Research with a passion for Web Development. With a keen eye for Web Development, I thrive on transforming creative ideas into tangible, impactful Web projects. Away from the screen, my hobbies are reading inspirational books and spending time with small children. Let's connect and explore how we can bring your ideas to life!</p>
+        <div class="tab-title">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Frontend Development</span><br>Desigining web user interface</li>
+            <li><span>Programming Languages</span><br>Designing projets using JAVA, C++ and Python</li>
+            <li><span>Database Management</span><br>MySql and MongoDB</li>
+          </ul>
+        </div>
+        
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>SSC</span><br>Maharashtra State Board</li>
+            <li><span>HSC</span><br>Maharashtra State Board</li>
+            <li><span>Graduation(BE)</span><br>SPPU</li>
+          </ul>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title2"> My <span class="service">Skills</span></h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>I excel in frontend development by crafting seamless, user-centric interfaces with a keen eye for design and optimal user experience. Proficient in HTML, CSS, and JavaScript.</p>
+         
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Content writing</h2>
+          <p>I bring a versatile set of skills to the table, ranging from crafting engaging blog posts and articles to creating compelling website content. My passion for storytelling and in-depth research allows me to produce content that not only captivates readers but also adds value to their experience. </p>
+         
+        
+          
+          
+        </div>
+        <div>
+          <i class="fa-regular fa-square-check"></i>
+          <h2> Problem solving</h2>
+
+          <p>
+            I am passionate about tackling challenges head-on and am confident in my ability to bring a proactive problem-solving approach to any team or project. Let's collaborate to overcome obstacles, drive efficiencies, and achieve your organization's objectives together.
+          </p>
+          
+   
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me
+          </h1>
+          <p> <i class="fa-solid fa-paper-plane"></i> pansaresrushti10@gmail.com </p>
+          <p><i class="fa-solid fa-square-phone"></i> 011254693</p>
+          <div class="social-icons">
+            
+            <a href="https://www.linkedin.com/in/srushti-pansare-0948a42a7/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BIPhglkjAR1%2B2zY1BGCt%2F5g%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+            <button type="submit" class="btn1 btn3">submit</button>
+          </form>
+          
+
+        </div>
+       
+      </div>
+      <a href="#header" class="move-up"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+    </div>
+    <div class="copyright">
+      <p> copyright © Srushti 2024</p>
+      <p>All Rights Reserved</p>
+      
+    </div>
+  </div>
+  
+
+  <script src="portfolio.js">
+   
+  </script>
+  
+</body>
+</html>
